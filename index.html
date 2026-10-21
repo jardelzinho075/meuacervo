@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f8f4ed" />
+    <meta
+      name="description"
+      content="Conheça os kits de decoração de festas do Meu Acervo Donna Ideia. Encontre seu tema, consulte valores e entre em contato pelo WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Meu Acervo | Donna Ideia" />
+    <meta
+      property="og:description"
+      content="Um acervo de ideias para momentos inesquecíveis. Conheça nossos kits de festa."
+    />
+    <meta property="og:image" content="images/logo/logo-donna-ideia.png" />
+    <title>Meu Acervo — Donna Ideia | Kits de festa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#acervo">Pular para o acervo</a>
+    <header class="site-header" id="inicio">
+      <div class="container header-inner">
+        <a
+          class="brand"
+          href="#inicio"
+          aria-label="Meu Acervo Donna Ideia, voltar ao início"
+        >
+          <img
+            src="images/logo/logo-donna-ideia.png"
+            alt="Logo Meu Acervo"
+            width="56"
+            height="56"
+          />
+          <span class="brand-copy"
+            ><strong>Meu Acervo</strong><small>por Donna Ideia</small></span
+          >
+        </a>
+        <nav class="desktop-nav" aria-label="Navegação principal">
+          <a href="#inicio">Início</a><a href="#acervo">Nosso Acervo</a
+          ><a href="#como-funciona">Como funciona</a
+          ><a href="#sobre">Sobre nós</a><a href="#contato">Contato</a>
+        </nav>
+        <a
+          class="button button-small button-filled header-cta"
+          data-whatsapp="geral"
+          href="#contato"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Solicitar orçamento <span aria-hidden="true">↗</span></a
+        >
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-controls="mobileNav"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <nav
+        class="mobile-nav"
+        id="mobileNav"
+        aria-label="Navegação para celulares"
+        inert
+      >
+        <a href="#inicio">Início</a><a href="#acervo">Nosso Acervo</a
+        ><a href="#como-funciona">Como funciona</a><a href="#sobre">Sobre nós</a
+        ><a href="#contato">Contato</a>
+        <a
+          class="mobile-contact"
+          data-whatsapp="geral"
+          href="#contato"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Solicitar orçamento ↗</a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="hero section" aria-labelledby="heroTitle">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span> DONNA IDEIA · DECORAÇÃO DE
+              FESTAS
+            </div>
+            <h1 id="heroTitle">
+              Momentos especiais merecem uma decoração <em>inesquecível.</em>
+            </h1>
+            <p>
+              Um acervo cheio de ideias para celebrar. Encontre o kit perfeito
+              para sua festa e deixe cada detalhe ainda mais especial.
+            </p>
+            <div class="hero-actions">
+              <a href="#acervo" class="button button-filled"
+                >Explorar nossos kits <span aria-hidden="true">↗</span></a
+              ><a
+                class="text-link"
+                data-whatsapp="geral"
+                href="#contato"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Falar com a Donna Ideia <span aria-hidden="true">↗</span></a
+              >
+            </div>
+            <div class="hero-footnote">
+              <span class="sparkle" aria-hidden="true">✳</span> Cada celebração
+              tem seu encanto.
+            </div>
+          </div>
+          <div class="hero-art">
+            <div class="hero-image-wrap">
+              <img
+                src="images/kits/fazendinha.webp"
+                alt="Decoração Fazendinha com casinha, madeira e elementos rústicos"
+                width="675"
+                height="836"
+                fetchpriority="high"
+              />
+            </div>
+            <div class="hero-sticker">
+              <span>Detalhes que</span><strong>encantam</strong><span>♡</span>
+            </div>
+            <div class="hero-side-note">IDEIAS QUE VIRAM MEMÓRIAS</div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="catalog section"
+        id="acervo"
+        aria-labelledby="catalogTitle"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <span class="overline">NOSSO ACERVO</span>
+            <h2 id="catalogTitle">Encontre o tema da <em>sua festa.</em></h2>
+            <p>
+              Confira nossos destaques ou pesquise o tema da sua festa para
+              encontrar outras opções do acervo.
+            </p>
+          </div>
+          <div class="catalog-tools">
+            <label class="search-field"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                aria-hidden="true"
+              >
+                <circle cx="11" cy="11" r="7" />
+                <path d="m16 16 5 5" /></svg
+              ><span class="sr-only">Pesquisar kits</span
+              ><input
+                id="kitSearch"
+                type="search"
+                placeholder="Qual tema você procura?"
+                autocomplete="off"
+            /></label>
+            <div
+              class="category-filters"
+              id="categoryFilters"
+              aria-label="Filtrar kits por categoria"
+            ></div>
+          </div>
+          <p class="result-count" id="resultCount" aria-live="polite"></p>
+          <div class="kit-grid" id="kitGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <span aria-hidden="true">✳</span>
+            <h3>Nenhum kit encontrado</h3>
+            <p>Tente outro nome ou explore todas as categorias.</p>
+            <button
+              class="button button-outline"
+              id="clearFilters"
+              type="button"
+            >
+              Ver todos os kits
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        class="how section"
+        id="como-funciona"
+        aria-labelledby="howTitle"
+      >
+        <div class="container">
+          <div class="section-heading centered">
+            <span class="overline">SIMPLES ASSIM</span>
+            <h2 id="howTitle">Sua festa começa com <em>uma boa ideia.</em></h2>
+          </div>
+          <div class="step-grid">
+            <article class="step">
+              <span class="step-number">01</span>
+              <div class="step-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <rect x="9" y="9" width="30" height="30" rx="3" />
+                  <path d="M15 30l7-8 6 6 5-5 6 8" />
+                  <circle cx="19" cy="17" r="2" />
+                </svg>
+              </div>
+              <h3>Escolha seu kit</h3>
+              <p>
+                Explore nosso acervo e encontre um tema que tenha tudo a ver com
+                sua comemoração.
+              </p>
+            </article>
+            <article class="step">
+              <span class="step-number">02</span>
+              <div class="step-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M9 12a5 5 0 0 1 5-5h20a5 5 0 0 1 5 5v17a5 5 0 0 1-5 5H19l-10 7V12Z"
+                  />
+                  <path d="M16 17h17M16 24h11" />
+                </svg>
+              </div>
+              <h3>Entre em contato</h3>
+              <p>
+                Fale com a gente pelo WhatsApp para tirar dúvidas e consultar
+                disponibilidade.
+              </p>
+            </article>
+            <article class="step">
+              <span class="step-number">03</span>
+              <div class="step-icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M8 22h32v18H8zM5 16h38v6H5zM24 16v24M17 16c-12-5-9-15-2-13 5 1 9 13 9 13s4-12 9-13c7-2 10 8-2 13"
+                  />
+                </svg>
+              </div>
+              <h3>Prepare a comemoração</h3>
+              <p>
+                Combine os detalhes diretamente com a Donna Ideia e celebre seu
+                momento.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="sobre" aria-labelledby="aboutTitle">
+        <div class="container about-layout">
+          <div class="about-image">
+            <img
+              src="images/kits/sininho.webp"
+              loading="lazy"
+              alt="Decoração temática de futebol com painel verde e troféu"
+              width="737"
+              height="857"
+            /><span>Feito para celebrar ♡</span>
+          </div>
+          <div class="about-copy">
+            <span class="overline">PRAZER, DONNA IDEIA</span>
+            <h2 id="aboutTitle">Criatividade em <em>cada detalhe.</em></h2>
+            <p>
+              Na Donna Ideia, acreditamos que cada comemoração merece uma
+              decoração especial.
+            </p>
+            <p>
+              Nosso acervo reúne kits pensados para diferentes temas e estilos,
+              ajudando você a encontrar a composição ideal para celebrar
+              momentos importantes.
+            </p>
+            <a href="#acervo" class="text-link"
+              >Conhecer o acervo <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="contact section"
+        id="contato"
+        aria-labelledby="contactTitle"
+      >
+        <div class="container contact-inner">
+          <span class="overline light">VAMOS CELEBRAR?</span>
+          <h2 id="contactTitle">
+            Encontrou o cenário perfeito para sua festa?
+          </h2>
+          <p>
+            Fale com a Donna Ideia e descubra como podemos fazer parte da sua
+            comemoração.
+          </p>
+          <a
+            class="button button-light"
+            data-whatsapp="geral"
+            href="#contato"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Conversar no WhatsApp <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <a href="#inicio" class="brand"
+            ><img
+              src="images/logo/logo-donna-ideia.png"
+              alt="Logo Meu Acervo"
+              width="56"
+              height="56"
+            /><span class="brand-copy"
+              ><strong>Meu Acervo</strong><small>por Donna Ideia</small></span
+            ></a
+          >
+          <p>Um acervo de ideias para momentos inesquecíveis.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Explore</h3>
+          <a href="#acervo">Nosso acervo</a
+          ><a href="#como-funciona">Como funciona</a
+          ><a href="#sobre">Sobre nós</a>
+        </div>
+        <div class="footer-links">
+          <h3>Vamos conversar?</h3>
+          <a
+            data-whatsapp="geral"
+            href="#contato"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp ↗</a
+          ><a
+            id="instagramLink"
+            hidden
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram ↗</a
+          >
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year"></span> Meu Acervo Donna Ideia. Todos os direitos
+          reservados.</span
+        ><span>Feito com carinho para celebrar.</span>
+      </div>
+    </footer>
+    <div class="modal" id="kitModal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <div
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+        tabindex="-1"
+      >
+        <button
+          class="modal-close"
+          type="button"
+          id="modalClose"
+          aria-label="Fechar detalhes"
+        >
+          ×
+        </button>
+        <div class="modal-media" id="modalMedia"></div>
+        <div class="modal-body">
+          <span class="overline" id="modalCategory"></span>
+          <h2 id="modalTitle"></h2>
+          <p id="modalDescription"></p>
+          <strong class="modal-price" id="modalPrice"></strong>
+          <div class="modal-gallery" id="modalGallery"></div>
+          <a
+            class="button button-filled modal-action"
+            id="modalWhatsapp"
+            href="#contato"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Consultar disponibilidade ↗</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

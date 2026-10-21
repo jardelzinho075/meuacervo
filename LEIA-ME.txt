@@ -1,0 +1,28 @@
+MEU ACERVO DONNA IDEIA — COMO PERSONALIZAR
+
+1) Abra script.js e configure WHATSAPP_NUMBER com 55 + DDD + telefone.
+   O número está vazio para evitar enviar clientes a um contato fictício.
+2) No array KITS de script.js, modifique preco: null para um valor numérico,
+   como preco: 250 (que aparece R$ 250,00). Não coloque "R$" nesse campo.
+3) Para adicionar kits, copie um objeto do array, troque id, nome, categoria,
+   preco, imagem, descricao e imagens.
+4) A foto do Toy Story não foi anexada: salve uma imagem real em
+   images/kits/toy-story.webp e altere imagem e imagens no script.js.
+5) O anexo da Sininho veio duas vezes, então foi utilizado uma única vez.
+6) Logo original tinha 150x150px. Foi ampliada com nitidez ajustada,
+   mas não é uma reconstrução vetorial de alta resolução.
+7) Instagram: altere INSTAGRAM_URL para a URL oficial, quando disponível.
+8) Abra index.html no navegador ou publique toda a pasta em Vercel/Netlify.
+
+Tecnologias: HTML, CSS e JavaScript puro, sem bibliotecas de UI ou backend.
+
+ATUALIZAÇÃO DO CATÁLOGO:
+- A página inicial mostra apenas os 3 primeiros kits cadastrados no array KITS.
+- A pesquisa por nome e os filtros de categoria mostram TODOS os kits correspondentes.
+- Para alterar os kits em destaque, mude a ordem do array KITS no script.js.
+- Para alterar a quantidade inicial, edite DESTAQUES_INICIAIS = 3.
+- Três novas fotos: sonic.webp, fazendinha.webp, bailarina.webp.
+- A foto da Fazendinha é destaque no início do site.
+- Toy Story foi removido.
+
+ATUALIZAÇÃO: Incluídas fotos de Hot Wheels, arco delicado, Safari, Mickey e Minnie (2 ângulos), Super-Heróis, Minecraft, rústico de madeira e arco neutro. Somente os três primeiros kits aparecem inicialmente; os outros são acessados por busca/categorias. Para mudar a foto inicial, altere o src dentro de hero-image-wrap em index.html.
