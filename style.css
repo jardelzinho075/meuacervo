@@ -1070,6 +1070,7 @@ p {
   section.about#sobre {
     display: none;
   }
+  
 
   /* Remove os links para a seção oculta */
   .mobile-nav a[href="#sobre"],
@@ -1077,4 +1078,10 @@ p {
     display: none;
   }
 
+}
+
+@media (max-width: 767px) {
+  #como-funciona {
+    display: none !important;
+  }
 }
